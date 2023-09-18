@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    @media screen and (max-width:899px) {
+        .container {
+            background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-darkpink-bg.png");
+            background-size: cover;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:899px) {
+        .container {
+            background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/fairpods-blue-bg.png");
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .image {
+        height: 180px;
+        width: 160px;
+        margin: 50px;
+        margin-left: 200px;
+        margin-bottom: 100px;
+        align-self: center;
+    }
+
+    @media screen and (min-width:900px) {
+        .image {
+            order: 2;
+            justify-content: center;
+            margin: 20px;
+            width: 180px;
+            height: 190px;
+        }
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+    }
+
+    @media screen and (width:900px) {
+        .content-container {
+            order: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .title {
+        color: #8e62d9;
+        font-family: "Roboto";
+        font-size: 18px;
+    }
+
+    .heading {
+        color: #FFFFFF;
+        font-family: "Roboto";
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .description {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 24px;
+    }
+
+    .button {
+        background-color: #ffdda9;
+        color: #334155;
+        margin-bottom: 30px;
+        height: 50px;
+        width: 300px;
+        border-radius: 20px;
+        justify-content: center;
+        margin-left: 40px;
+        font-size: 18px;
+        font-weight: bold;
+    }

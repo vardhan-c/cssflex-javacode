@@ -1,0 +1,13 @@
+Below are the most common mistakes made in this coding practice
+1. The background color of the container and text inside the span element is not getting updated in the output
+Mistake:
+Not giving the same function name which we defined in the JS as a value to the onclick attribute for button elements in HTML.
+HTML
+JAVASCRIPT
+In the above example, we used different function names in HTML and JS code.
+
+Solution:
+Give the same function name which was defined in the JS as a value to the onclick attribute as shown below, else that function won't get executed and we didn't get the expected result.
+HTML
+JAVASCRIPT
+Tips to avoid such errors:
